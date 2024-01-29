@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class MainTest {
     @Test
     public void firstLessThanSecond() {
-        long[] res = Main.solve((long) 980, 2, 12, 10, 30, 1,
+        long[] res = Main.solve(980, 2, 12, 10, 30, 1,
                 980, 3, 1, 10, 31, 37);
         Assertions.assertEquals(17, res[0]);
         Assertions.assertEquals(96, res[1]);
